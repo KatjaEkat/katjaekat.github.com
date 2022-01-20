@@ -1,0 +1,47 @@
+body {
+    background-color: #581a0b;
+}
+a {
+    text-decoration: none;
+    color: #d59b6c;
+}
+.sin {
+        text-align: center;
+        margin-top: 300px;
+        font-family: 'Megrim', cursive;
+
+    }
+    .vpered {
+        font-size: 40px;
+        text-align: right;
+        margin-top: -80px;
+        margin-right: 10px;
+      font-family: 'Megrim', cursive;
+    }
+    .nazad {
+        font-size: 40px;
+        text-align: left;
+        margin-top: -80px;
+        margin-left: 10px;
+      font-family: 'Megrim', cursive;
+
+    }
+  img {
+  width: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .5s ease;
+   border: 2px solid #d59b6c;
+   padding: 15px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+img:hover {
+opacity: 0;
+}
+ .sinname {
+    color: #d59b6c;
+    font-size: 50px;
+ }
